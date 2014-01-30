@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.boost</groupId>
+	<artifactId>parent</artifactId>
+	<packaging>pom</packaging>
+	<version>1.55.0</version>
+
+	<name>BOOST :: Parent</name>
+
+	<properties>
+		<skipTests>true</skipTests>
+
+    <!-- parent POM will disable deployment to make sure no useless artifacts will be deployed
+    however we reenable deployment here, to be able to deploy new builds of the engine in
+    artifactory -->
+    <skipDeploy>false</skipDeploy>
+</properties>
+
+<modules>
+	<module>core</module>
+	<module>date_time</module>
+	<module>thread</module>
+</modules>
+
+<build>
+	<defaultGoal>install</defaultGoal>
+	<plugins>
+		<plugin>
+			<groupId>com.github.maven-nar</groupId>
+			<artifactId>nar-maven-plugin</artifactId>
+			<version>3.0.0</version>
+			<extensions>true</extensions>
+			<configuration>
+				<cpp>
+					<name>g++</name>
+					<debug>true</debug>
+					<includes>
+						<include>**/*.hpp</include>
+						<include>**/*.cpp</include>
+					</includes>
+					<options>
+						<option>-std=c++11</option>
+						<option>-std=gnu++11</option>
+					</options>
+				</cpp>
+
+				<linker>
+					<name>g++</name>
+				</linker>
+			</configuration>
+		</plugin>
+	</plugins>
+</build>
+
+</project>
