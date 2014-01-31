@@ -22,6 +22,12 @@
 	<module>core</module>
 	<module>date_time</module>
 	<module>thread</module>
+	<module>move</module>
+	<module>chrono</module>
+	<module>ratio</module>
+	<module>bind</module>
+	<module>atomic</module>
+	<module>io</module>
 </modules>
 
 <build>
@@ -45,7 +51,6 @@
 						<option>-std=gnu++11</option>
 					</options>
 				</cpp>
-
 				<linker>
 					<name>g++</name>
 				</linker>
@@ -53,5 +58,43 @@
 		</plugin>
 	</plugins>
 </build>
+
+<profiles>
+	<profile>
+		<id>mingw</id>
+		<activation>
+			<activeByDefault>true</activeByDefault>
+		</activation>
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>com.github.maven-nar</groupId>
+					<artifactId>nar-maven-plugin</artifactId>
+					<version>3.0.0</version>
+					<configuration>
+						<cpp>
+							<name>g++</name>
+							<debug>true</debug>
+							<includes>
+								<include>**/*.hpp</include>
+								<include>**/*.cpp</include>
+							</includes>
+							<excludes>
+								<exclude>**/win32/*</exclude>
+							</excludes>
+							<options>
+								<option>-std=c++11</option>
+								<option>-std=gnu++11</option>
+							</options>
+						</cpp>
+						<linker>
+							<name>g++</name>
+						</linker>
+					</configuration>
+				</plugin>
+			</plugins>
+		</build>
+	</profile>
+</profiles>
 
 </project>

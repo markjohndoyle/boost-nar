@@ -1,7 +1,18 @@
+<<<<<<< HEAD
 # Compiled Object files
 *.slo
 *.lo
 *.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+=======
 
 #ignore thumbnails created by windows
 Thumbs.db
@@ -32,8 +43,5 @@ obj/
 _ReSharper*/
 [Tt]est[Rr]esult*
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
 target/
+>>>>>>> Initial commit.

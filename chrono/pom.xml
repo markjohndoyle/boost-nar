@@ -10,9 +10,9 @@
 
 	<packaging>nar</packaging>
 
-	<artifactId>thread</artifactId>
+	<artifactId>chrono</artifactId>
 
-	<name>BOOST :: Thread</name>
+	<name>BOOST :: Chrono</name>
 
 	<build>
 		<plugins>
@@ -42,37 +42,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.boost</groupId>
-			<artifactId>move</artifactId>
-			<version>${project.version}</version>
-			<type>nar</type>
-		</dependency>
-		<dependency>
-			<groupId>org.boost</groupId>
-			<artifactId>date_time</artifactId>
-			<version>${project.version}</version>
-			<type>nar</type>
-		</dependency>
-		<dependency>
-			<groupId>org.boost</groupId>
-			<artifactId>bind</artifactId>
-			<version>${project.version}</version>
-			<type>nar</type>
-		</dependency>
-		<dependency>
-			<groupId>org.boost</groupId>
-			<artifactId>chrono</artifactId>
-			<version>${project.version}</version>
-			<type>nar</type>
-		</dependency>
-		<dependency>
-			<groupId>org.boost</groupId>
-			<artifactId>atomic</artifactId>
-			<version>${project.version}</version>
-			<type>nar</type>
-		</dependency>
-		<dependency>
-			<groupId>org.boost</groupId>
-			<artifactId>io</artifactId>
+			<artifactId>ratio</artifactId>
 			<version>${project.version}</version>
 			<type>nar</type>
 		</dependency>
