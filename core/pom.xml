@@ -1,36 +1,30 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>org.boost</groupId>
-		<artifactId>parent</artifactId>
-		<version>1.55.0</version>
-	</parent>
+    <parent>
+        <groupId>org.boost</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.5.7</version>
+    </parent>
 
-	<packaging>nar</packaging>
+    <artifactId>core</artifactId>
+    <packaging>nar</packaging>
+    <name>Boost :: Core</name>
+    <description>Boost root headers</description>
 
-	<artifactId>core</artifactId>
+    <properties>
+        <nar.includefilesonly>true</nar.includefilesonly>
+    </properties>
 
-	<name>BOOST :: Core</name>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>com.github.maven-nar</groupId>
-				<artifactId>nar-maven-plugin</artifactId>
-				<version>3.0.0</version>
-				<extensions>true</extensions>
-				<configuration>
-					<libraries>
-						<library>
-							<type>shared</type>
-						</library>
-					</libraries>
-
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.github.maven-nar</groupId>
+                <artifactId>nar-maven-plugin</artifactId>
+                <version>3.2.2</version>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

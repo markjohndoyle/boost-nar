@@ -1,100 +1,62 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.boost</groupId>
-	<artifactId>parent</artifactId>
-	<packaging>pom</packaging>
-	<version>1.55.0</version>
+    <groupId>org.boost</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.5.7</version>
+    <packaging>pom</packaging>
 
-	<name>BOOST :: Parent</name>
+    <name>Boost :: Parent</name>
+    <description>Boost stuff</description>
 
-	<properties>
-		<skipTests>true</skipTests>
+    <modules>
+        <module>core</module>
+        <module>system</module>
+        <module>predef</module>
+        <module>config</module>
+        <module>utility</module>
+        <module>filesystem</module>
+        <module>detail</module>
+        <module>type-traits</module>
+        <module>mpl</module>
+        <module>preprocessor</module>
+        <module>iterator</module>
+        <module>smart-ptr</module>
+        <module>exception</module>
+        <module>io</module>
+        <module>functional</module>
+        <module>range</module>
+    </modules>
 
-    <!-- parent POM will disable deployment to make sure no useless artifacts will be deployed
-    however we reenable deployment here, to be able to deploy new builds of the engine in
-    artifactory -->
-    <skipDeploy>false</skipDeploy>
-</properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.github.maven-nar</groupId>
+                <artifactId>nar-maven-plugin</artifactId>
+                <version>3.2.2</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <cpp>
+                        <name>g++</name>
+                        <debug>false</debug>
+                        <includes>
+                            <include>**/*.hpp</include>
+                            <include>**/*.h</include>
+                            <include>**/*.cpp</include>
+                            <include>**/*.c</include>
+                        </includes>
+                        <options>
+                            <option>-std=c++11</option>
+                        </options>
+                    </cpp>
 
-<modules>
-	<module>core</module>
-	<module>date_time</module>
-	<module>thread</module>
-	<module>move</module>
-	<module>chrono</module>
-	<module>ratio</module>
-	<module>bind</module>
-	<module>atomic</module>
-	<module>io</module>
-</modules>
-
-<build>
-	<defaultGoal>install</defaultGoal>
-	<plugins>
-		<plugin>
-			<groupId>com.github.maven-nar</groupId>
-			<artifactId>nar-maven-plugin</artifactId>
-			<version>3.0.0</version>
-			<extensions>true</extensions>
-			<configuration>
-				<cpp>
-					<name>g++</name>
-					<debug>true</debug>
-					<includes>
-						<include>**/*.hpp</include>
-						<include>**/*.cpp</include>
-					</includes>
-					<options>
-						<option>-std=c++11</option>
-						<option>-std=gnu++11</option>
-					</options>
-				</cpp>
-				<linker>
-					<name>g++</name>
-				</linker>
-			</configuration>
-		</plugin>
-	</plugins>
-</build>
-
-<profiles>
-	<profile>
-		<id>mingw</id>
-		<activation>
-			<activeByDefault>true</activeByDefault>
-		</activation>
-		<build>
-			<plugins>
-				<plugin>
-					<groupId>com.github.maven-nar</groupId>
-					<artifactId>nar-maven-plugin</artifactId>
-					<version>3.0.0</version>
-					<configuration>
-						<cpp>
-							<name>g++</name>
-							<debug>true</debug>
-							<includes>
-								<include>**/*.hpp</include>
-								<include>**/*.cpp</include>
-							</includes>
-							<excludes>
-								<exclude>**/win32/*</exclude>
-							</excludes>
-							<options>
-								<option>-std=c++11</option>
-								<option>-std=gnu++11</option>
-							</options>
-						</cpp>
-						<linker>
-							<name>g++</name>
-						</linker>
-					</configuration>
-				</plugin>
-			</plugins>
-		</build>
-	</profile>
-</profiles>
-
+                    <linker>
+                        <name>g++</name>
+                    </linker>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
+
