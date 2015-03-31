@@ -6,12 +6,12 @@
  * http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#ifndef BOOST_NONCOPYABLE_HPP
-#define BOOST_NONCOPYABLE_HPP
+#ifndef BOOST_SWAP_HPP
+#define BOOST_SWAP_HPP
 
 // The header file at this path is deprecated;
-// use boost/core/noncopyable.hpp instead.
+// use boost/core/swap.hpp instead.
 
-#include <boost/core/noncopyable.hpp>
+#include <boost/core/swap.hpp>
 
 #endif
