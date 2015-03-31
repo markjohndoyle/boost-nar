@@ -9,5 +9,3 @@ To install simply clone the repo and run:
 
 The libraries are available as separate dependencies as per a typical module layout. This means if required you can depend only upon the boost filesystem module, the necessary transitive depedencies will be automatically available.
 
-
-Not tested the build on linux yet. Should be fine...
