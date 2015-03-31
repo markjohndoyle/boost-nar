@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.boost</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.5.7</version>
+    </parent>
+
+    <artifactId>regex</artifactId>
+    <packaging>nar</packaging>
+    <name>Boost :: Regex</name>
+    <description>Boost regex library</description>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.github.maven-nar</groupId>
+                <artifactId>nar-maven-plugin</artifactId>
+                <version>3.2.2</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <libraries>
+                        <library>
+                            <type>shared</type>
+                        </library>
+                    </libraries>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+      <dependency>
+        <groupId>org.boost</groupId>
+        <artifactId>config</artifactId>
+        <type>nar</type>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+	<groupId>org.boost</groupId>
+	<artifactId>detail</artifactId>
+	<type>nar</type>
+	<version>${project.version}</version>
+      </dependency>
+      <dependency>
+	<groupId>org.boost</groupId>
+	<artifactId>exception</artifactId>
+	<type>nar</type>
+	<version>${project.version}</version>
+      </dependency>
+    </dependencies>
+</project>
