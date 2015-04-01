@@ -32,23 +32,35 @@
     </build>
 
     <dependencies>
-      <dependency>
-        <groupId>org.boost</groupId>
-        <artifactId>config</artifactId>
-        <type>nar</type>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-	<groupId>org.boost</groupId>
-	<artifactId>detail</artifactId>
-	<type>nar</type>
-	<version>${project.version}</version>
-      </dependency>
-      <dependency>
-	<groupId>org.boost</groupId>
-	<artifactId>exception</artifactId>
-	<type>nar</type>
-	<version>${project.version}</version>
-      </dependency>
+        <dependency>
+            <groupId>org.boost</groupId>
+            <artifactId>config</artifactId>
+            <type>nar</type>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.boost</groupId>
+            <artifactId>detail</artifactId>
+            <type>nar</type>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.boost</groupId>
+            <artifactId>exception</artifactId>
+            <type>nar</type>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.boost</groupId>
+            <artifactId>smart-ptr</artifactId>
+            <type>nar</type>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.boost</groupId>
+            <artifactId>integer</artifactId>
+            <type>nar</type>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>
