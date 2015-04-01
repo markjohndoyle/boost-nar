@@ -14,6 +14,7 @@
         <module>core</module>
         <module>system</module>
         <module>predef</module>
+        <module>integer</module>
         <module>config</module>
         <module>utility</module>
         <module>filesystem</module>
@@ -27,6 +28,7 @@
         <module>io</module>
         <module>functional</module>
         <module>range</module>
+        <module>regex</module>
     </modules>
 
     <build>

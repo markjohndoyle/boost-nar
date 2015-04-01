@@ -38,5 +38,17 @@
             <type>nar</type>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.boost</groupId>
+            <artifactId>utility</artifactId>
+            <type>nar</type>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.boost</groupId>
+            <artifactId>predef</artifactId>
+            <type>nar</type>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>
