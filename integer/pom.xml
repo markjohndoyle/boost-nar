@@ -12,7 +12,6 @@
     <packaging>nar</packaging>
     <name>Boost :: Integer</name>
     <description>Boost integer headers</description>
-
     <build>
         <plugins>
             <plugin>
@@ -21,6 +20,11 @@
                 <version>3.2.2</version>
                 <extensions>true</extensions>
                 <configuration>
+                    <libraries>
+                        <library>
+                            <type>shared</type>
+                        </library>
+                    </libraries>
                 </configuration>
             </plugin>
         </plugins>
