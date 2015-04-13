@@ -29,6 +29,7 @@
         <module>functional</module>
         <module>range</module>
         <module>regex</module>
+        <module>integer</module>
     </modules>
 
     <build>
