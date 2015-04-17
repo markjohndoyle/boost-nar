@@ -11,10 +11,12 @@
     <description>Boost stuff</description>
 
     <modules>
+        <module>algorithm</module>
         <module>bind</module>
         <module>concept</module>
         <module>config</module>
         <module>core</module>
+        <module>date-time</module>
         <module>detail</module>
         <module>exception</module>
         <module>filesystem</module>
