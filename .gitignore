@@ -36,3 +36,5 @@ _ReSharper*/
 *.la
 *.a
 target/
+.project
+.settings

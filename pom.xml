@@ -11,24 +11,39 @@
     <description>Boost stuff</description>
 
     <modules>
-        <module>core</module>
-        <module>system</module>
-        <module>predef</module>
-        <module>integer</module>
+        <module>bind</module>
+        <module>concept</module>
         <module>config</module>
-        <module>utility</module>
-        <module>filesystem</module>
+        <module>core</module>
         <module>detail</module>
-        <module>type-traits</module>
-        <module>mpl</module>
-        <module>preprocessor</module>
-        <module>iterator</module>
-        <module>smart-ptr</module>
         <module>exception</module>
-        <module>io</module>
+        <module>filesystem</module>
+        <module>function</module>
+        <module>function_types</module>
         <module>functional</module>
+        <module>fusion</module>
+        <module>integer</module>
+        <module>io</module>
+        <module>iostreams</module>
+        <module>iterator</module>
+        <module>math</module>
+        <module>move</module>
+        <module>mpl</module>
+        <module>optional</module>
+        <module>phoenix</module>
+        <module>predef</module>
+        <module>preprocessor</module>
+        <module>proto</module>
         <module>range</module>
         <module>regex</module>
+        <module>smart-ptr</module>
+        <module>spirit</module>
+        <module>system</module>
+        <module>type-traits</module>
+        <module>type_index</module>
+        <module>typeof</module>
+        <module>utility</module>
+        <module>variant</module>
     </modules>
 
     <build>
