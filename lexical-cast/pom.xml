@@ -8,7 +8,7 @@
         <version>1.5.7</version>
     </parent>
 
-    <artifactId>lexical_cast</artifactId>
+    <artifactId>lexical-cast</artifactId>
     <packaging>nar</packaging>
     <name>Boost :: Lexical_cast</name>
     <description>Boost lexical_cast lib</description>

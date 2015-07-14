@@ -151,7 +151,7 @@
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
-            <artifactId>lexical_cast</artifactId>
+            <artifactId>lexical-cast</artifactId>
             <type>nar</type>
             <version>${project.version}</version>
         </dependency>

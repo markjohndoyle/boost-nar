@@ -14,6 +14,7 @@
         <module>bind</module>
         <module>concept</module>
         <module>config</module>
+        <module>container</module>
         <module>core</module>
         <module>detail</module>
         <module>exception</module>
@@ -26,9 +27,11 @@
         <module>io</module>
         <module>iostreams</module>
         <module>iterator</module>
+        <module>lexical-cast</module>
         <module>math</module>
         <module>move</module>
         <module>mpl</module>
+        <module>numeric</module>
         <module>optional</module>
         <module>phoenix</module>
         <module>predef</module>
