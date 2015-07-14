@@ -27,6 +27,7 @@
         <module>io</module>
         <module>iostreams</module>
         <module>iterator</module>
+        <module>interprocess</module>
         <module>lexical-cast</module>
         <module>math</module>
         <module>move</module>
