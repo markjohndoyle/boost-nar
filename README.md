@@ -16,3 +16,44 @@ Things to note
 * iostreams does not use bzip TODO compiler flag or edited the code? We don't want to be changing boost.
 * minor change to lexical-cast (converter_lexical_streams.hpp) to prevent error from running in visual studio environment
 
+Module status
+--------------
+Modules are added as required or via contributions. Currently we have:
+
+* bind
+* concept
+* config
+* container
+* core
+* detail
+* exception
+* filesystem
+* function
+* function_types
+* functional
+* fusion
+* integer
+* io
+* iostreams
+* iterator
+* interprocess
+* lexical-cast
+* math
+* move
+* mpl
+* numeric
+* optional
+* phoenix
+* predef
+* preprocessor
+* proto
+* range
+* regex
+* smart-ptr
+* spirit
+* system
+* type-traits
+* type_index
+* typeof
+* utility
+* variant
