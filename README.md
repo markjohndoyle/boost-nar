@@ -25,6 +25,7 @@ Modules are added as required or via contributions. Currently we have:
 * config
 * container
 * core
+* date-time
 * detail
 * exception
 * filesystem
