@@ -16,6 +16,7 @@
         <module>config</module>
         <module>container</module>
         <module>core</module>
+        <module>date-time</module>
         <module>detail</module>
         <module>exception</module>
         <module>filesystem</module>
