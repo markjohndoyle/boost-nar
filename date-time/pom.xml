@@ -27,7 +27,10 @@
                         </library>
                     </libraries>
                     <cpp>
-                        <options>                            
+                        <options combine.children="append">
+                            <option>-DDATE_TIME_INLINE</option>
+                            <option>-DBOOST_LOCALE_NO_WINAPI_BACKEND=1</option>
+                            <option>-DBOOST_LOCALE_WITH_ICONV=1</option>
                         </options>
                     </cpp>
                 </configuration>
