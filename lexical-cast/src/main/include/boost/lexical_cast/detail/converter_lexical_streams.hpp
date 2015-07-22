@@ -18,9 +18,6 @@
 #ifndef BOOST_LEXICAL_CAST_DETAIL_CONVERTER_LEXICAL_STREAMS_HPP
 #define BOOST_LEXICAL_CAST_DETAIL_CONVERTER_LEXICAL_STREAMS_HPP
 
-#include <stdio.h>
-#include <strsafe.h>
-
 #include <boost/config.hpp>
 #ifdef BOOST_HAS_PRAGMA_ONCE
 #   pragma once
@@ -286,8 +283,7 @@ namespace boost {
 #if defined(_MSC_VER) && (_MSC_VER >= 1400) && !defined(__SGI_STL_PORT) && !defined(_STLPORT_VERSION)
                     sprintf_s(begin, CharacterBufferSize,
 #else
-                    sprintf_s(begin, CharacterBufferSize,
-                    // sprintf(begin, 
+                    sprintf(begin, 
 #endif
                     "%.*g", static_cast<int>(boost::detail::lcast_get_precision<float>()), val_as_double);
                 return finish > start;
@@ -299,8 +295,7 @@ namespace boost {
 #if defined(_MSC_VER) && (_MSC_VER >= 1400) && !defined(__SGI_STL_PORT) && !defined(_STLPORT_VERSION)
                     sprintf_s(begin, CharacterBufferSize,
 #else
-                    sprintf_s(begin, CharacterBufferSize,
-                    // sprintf(begin, 
+                    sprintf(begin, 
 #endif
                     "%.*g", static_cast<int>(boost::detail::lcast_get_precision<double>()), val);
                 return finish > start;
