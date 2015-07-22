@@ -70,9 +70,14 @@
                         </includes>
                         <options>
                             <option>-std=c++11</option>
+                            <option>-ftemplate-depth-128</option>
+                            <option>-fno-inline</option>
+                            <option>-Wall</option>
+                            <option>-pedantic</option>
+                            <option>-Wno-long-long</option>
+                            <option>-Wno-variadic-macros</option>
                         </options>
                     </cpp>
-
                     <linker>
                         <name>g++</name>
                     </linker>
@@ -80,5 +85,58 @@
             </plugin>
         </plugins>
     </build>
+
+
+    <profiles>
+        <profile>
+            <id>windows-common</id>
+            <activation>
+                <os>
+                    <family>windows</family>
+                </os>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.github.maven-nar</groupId>
+                        <artifactId>nar-maven-plugin</artifactId>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <cpp>
+                                <options combine.children="append">
+                                    <option>-mthreads</option>
+                                </options>
+                            </cpp>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>linux-common</id>
+            <activation>
+                <os>
+                    <family>linux</family>
+                </os>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.github.maven-nar</groupId>
+                        <artifactId>nar-maven-plugin</artifactId>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <cpp>
+                                <options combine.children="append">
+                                    <option>-pthread</option>
+                                </options>
+                            </cpp>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>
 
