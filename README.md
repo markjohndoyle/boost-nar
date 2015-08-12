@@ -14,7 +14,6 @@ Things to note
 -----------------
 
 * iostreams does not use bzip TODO compiler flag or edited the code? We don't want to be changing boost.
-* minor change to lexical-cast (converter_lexical_streams.hpp) to prevent error from running in visual studio environment
 
 Module status
 --------------
