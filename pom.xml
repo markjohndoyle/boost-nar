@@ -10,6 +10,14 @@
     <name>Boost :: Parent</name>
     <description>Boost stuff</description>
 
+    <properties>
+        <!-- Maven plugin versions -->
+        <nar-plugin.version>3.2.4-SNAPSHOT</nar-plugin.version>
+        <!-- Native project -->
+        <compiler-name>clang++</compiler-name>
+        <linker-name>clang++</linker-name>
+    </properties>
+
     <modules>
         <module>asio</module>
         <module>bind</module>
@@ -57,11 +65,11 @@
             <plugin>
                 <groupId>com.github.maven-nar</groupId>
                 <artifactId>nar-maven-plugin</artifactId>
-                <version>3.2.2</version>
+                <version>${nar-plugin.version}</version>
                 <extensions>true</extensions>
                 <configuration>
                     <cpp>
-                        <name>g++</name>
+                        <name>${compiler-name}</name>
                         <debug>false</debug>
                         <includes>
                             <include>**/*.hpp</include>
@@ -69,7 +77,7 @@
                             <include>**/*.cpp</include>
                             <include>**/*.c</include>
                         </includes>
-                        <options>
+                        <options combine.children="append">
                             <option>-std=c++11</option>
                             <option>-ftemplate-depth-128</option>
                             <option>-fno-inline</option>
@@ -80,7 +88,7 @@
                         </options>
                     </cpp>
                     <linker>
-                        <name>g++</name>
+                        <name>${linker-name}</name>
                     </linker>
                 </configuration>
             </plugin>

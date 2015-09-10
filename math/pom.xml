@@ -18,7 +18,6 @@
             <plugin>
                 <groupId>com.github.maven-nar</groupId>
                 <artifactId>nar-maven-plugin</artifactId>
-                <version>3.2.2</version>
                 <extensions>true</extensions>
             </plugin>
         </plugins>

@@ -22,7 +22,6 @@
             <plugin>
                 <groupId>com.github.maven-nar</groupId>
                 <artifactId>nar-maven-plugin</artifactId>
-                <version>3.2.2</version>
                 <extensions>true</extensions>
             </plugin>
         </plugins>
@@ -44,12 +43,6 @@
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>move</artifactId>
-            <type>nar</type>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.boost</groupId>
-            <artifactId>config</artifactId>
             <type>nar</type>
             <version>${project.version}</version>
         </dependency>
