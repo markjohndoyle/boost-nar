@@ -11,6 +11,7 @@
     <description>Boost stuff</description>
 
     <modules>
+        <module>asio</module>
         <module>bind</module>
         <module>concept</module>
         <module>config</module>

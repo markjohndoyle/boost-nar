@@ -14,11 +14,13 @@ Things to note
 -----------------
 
 * iostreams does not use bzip TODO compiler flag or edited the code? We don't want to be changing boost.
+* asio does not have the asio/impl/src.cpp
 
 Module status
 --------------
 Modules are added as required or via contributions. Currently we have:
 
+* asio
 * bind
 * concept
 * config
