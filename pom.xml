@@ -12,7 +12,7 @@
 
     <properties>
         <!-- Maven plugin versions -->
-        <nar-plugin.version>3.2.4-SNAPSHOT</nar-plugin.version>
+        <nar-plugin.version>3.2.3</nar-plugin.version>
         <!-- Native project -->
         <compiler-name>clang++</compiler-name>
         <linker-name>clang++</linker-name>
