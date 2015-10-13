@@ -40,6 +40,18 @@
             <type>nar</type>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.boost</groupId>
+            <artifactId>mpl</artifactId>
+            <type>nar</type>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.boost</groupId>
+            <artifactId>type-traits</artifactId>
+            <type>nar</type>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
 </project>
