@@ -1,13 +1,20 @@
 boost-nar
 =========
 
-The Boost C++ libraries in maven form for producing Nar artefacts.
-
-To install simply clone the repo and run:
-  mvn install
-
+The Boost C++ libraries in maven form for producing Nar artefacts for use with the  [nar-maven-plugin](https://github.com/maven-nar/nar-maven-plugin)
 
 The libraries are available as separate dependencies as per a typical module layout. This means if required you can depend only upon the boost filesystem module, the necessary transitive depedencies will be automatically available.
+
+Building
+-----------------
+
+Simply execute your deisred maven goal e.g. mvn install
+
+*There are two properties specifing compiler and linker in the root pom. This is set to use g++ which is our default on Windows. You can override this on the command line as follows:*
+
+`mvn install -Dcompiler-name=yourcompiler -Dlinker-name=yourlinker`
+
+*or you can simply remove the entries in the pom and use the default for your AOL. See the nar documentation for more details.*
 
 
 Things to note
