@@ -4,7 +4,7 @@
 
     <groupId>org.boost</groupId>
     <artifactId>parent</artifactId>
-    <version>1.57.0+nar.3</version>
+    <version>1.57.0+nar.4</version>
     <packaging>pom</packaging>
 
     <name>Boost :: Parent</name>
