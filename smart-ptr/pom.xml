@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.boost</groupId>
         <artifactId>parent</artifactId>
-        <version>${project.version}</version>
+        <version>1.57.0+nar.4</version>
     </parent>
 
     <artifactId>smart-ptr</artifactId>
@@ -35,19 +35,19 @@
             <groupId>org.boost</groupId>
             <artifactId>exception</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>utility</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>predef</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
     </dependencies>
 </project>

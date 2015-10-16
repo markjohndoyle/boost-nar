@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.boost</groupId>
         <artifactId>parent</artifactId>
-        <version>${project.version}</version>
+        <version>1.57.0+nar.4</version>
     </parent>
 
     <artifactId>spirit</artifactId>
@@ -32,133 +32,133 @@
             <groupId>org.boost</groupId>
             <artifactId>core</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>mpl</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>config</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>detail</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>type-traits</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>optional</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>exception</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>utility</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>move</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>smart-ptr</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>iterator</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>concept</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>phoenix</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>proto</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>variant</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>math</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>regex</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>function</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>function_types</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>iostreams</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>lexical-cast</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>io</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
     </dependencies>
 

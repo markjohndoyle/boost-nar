@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.boost</groupId>
         <artifactId>parent</artifactId>
-        <version>${project.version}</version>
+        <version>1.57.0+nar.4</version>
     </parent>
 
     <artifactId>asio</artifactId>
@@ -39,13 +39,13 @@
             <groupId>org.boost</groupId>
             <artifactId>core</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>system</artifactId>
             <type>nar</type>
-            <version>${project.version}</version>
+            <version>1.57.0+nar.4</version>
         </dependency>
     </dependencies>
 
