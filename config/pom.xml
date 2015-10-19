@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.boost</groupId>
         <artifactId>parent</artifactId>
-        <version>1.57.0+nar.4</version>
+        <version>1.57.0+nar.5</version>
     </parent>
 
     <artifactId>config</artifactId>
@@ -32,7 +32,7 @@
             <groupId>org.boost</groupId>
             <artifactId>core</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.4</version>
+            <version>1.57.0+nar.5</version>
         </dependency>
     </dependencies>
 
