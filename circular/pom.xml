@@ -8,10 +8,14 @@
         <version>1.57.0+nar.7</version>
     </parent>
 
-    <artifactId>math</artifactId>
+    <artifactId>circular</artifactId>
     <packaging>nar</packaging>
-    <name>Boost :: Math</name>
-    <description>Boost math lib</description>
+    <name>Boost :: Circular Buffer</name>
+    <description>Boost Circular Buffer lib</description>
+
+    <properties>
+        <nar.includefilesonly>true</nar.includefilesonly>
+    </properties>
 
     <build>
         <plugins>
@@ -27,6 +31,12 @@
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>core</artifactId>
+            <type>nar</type>
+            <version>1.57.0+nar.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.boost</groupId>
+            <artifactId>preprocessor</artifactId>
             <type>nar</type>
             <version>1.57.0+nar.7</version>
         </dependency>
