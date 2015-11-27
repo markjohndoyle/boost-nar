@@ -29,6 +29,7 @@ Modules are added as required or via contributions. Currently we have:
 
 * asio
 * bind
+* circular
 * concept
 * config
 * container
