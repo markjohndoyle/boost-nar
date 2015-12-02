@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.boost</groupId>
         <artifactId>parent</artifactId>
-        <version>1.57.0+nar.7</version>
+        <version>1.57.0+nar.8</version>
     </parent>
 
     <artifactId>system</artifactId>
@@ -35,25 +35,25 @@
             <groupId>org.boost</groupId>
             <artifactId>core</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.7</version>
+            <version>1.57.0+nar.8</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>config</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.7</version>
+            <version>1.57.0+nar.8</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>predef</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.7</version>
+            <version>1.57.0+nar.8</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>utility</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.7</version>
+            <version>1.57.0+nar.8</version>
         </dependency>
     </dependencies>
 
