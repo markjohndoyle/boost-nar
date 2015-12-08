@@ -43,6 +43,7 @@ Modules are added as required or via contributions. Currently we have:
 * functional
 * fusion
 * integer
+* intrusive
 * io
 * iostreams
 * iterator
