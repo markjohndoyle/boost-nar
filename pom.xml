@@ -4,7 +4,7 @@
 
     <groupId>org.boost</groupId>
     <artifactId>parent</artifactId>
-    <version>1.57.0+nar.9</version>
+    <version>1.57.0+nar.10</version>
     <packaging>pom</packaging>
 
     <name>Boost :: Parent</name>
@@ -59,6 +59,7 @@
         <module>utility</module>
         <module>variant</module>
         <module>circular</module>
+        <module>intrusive</module>
     </modules>
 
     <build>

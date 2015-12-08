@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.boost</groupId>
         <artifactId>parent</artifactId>
-        <version>1.57.0+nar.9</version>
+        <version>1.57.0+nar.10</version>
     </parent>
 
     <artifactId>regex</artifactId>
@@ -35,49 +35,49 @@
             <groupId>org.boost</groupId>
             <artifactId>config</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.9</version>
+            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>detail</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.9</version>
+            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>exception</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.9</version>
+            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>smart-ptr</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.9</version>
+            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>mpl</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.9</version>
+            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>type-traits</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.9</version>
+            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>functional</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.9</version>
+            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>integer</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.9</version>
+            <version>1.57.0+nar.10</version>
         </dependency>
     </dependencies>
 </project>
