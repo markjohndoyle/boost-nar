@@ -49,6 +49,7 @@ Modules are added as required or via contributions. Currently we have:
 * iostreams
 * iterator
 * interprocess
+* lambda
 * lexical-cast
 * math
 * move
