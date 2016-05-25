@@ -20,6 +20,7 @@
 
     <modules>
         <module>asio</module>
+        <module>algorithm</module>
         <module>bind</module>
         <module>concept</module>
         <module>config</module>

@@ -28,6 +28,7 @@ Module status
 Modules are added as required or via contributions. Currently we have:
 
 * asio
+* algorithm
 * bind
 * circular
 * concept
