@@ -28,7 +28,6 @@
             <groupId>org.boost</groupId>
             <artifactId>core</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
     </dependencies>
 

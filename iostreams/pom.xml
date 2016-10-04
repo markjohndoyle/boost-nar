@@ -40,61 +40,51 @@
             <groupId>org.boost</groupId>
             <artifactId>core</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>config</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>detail</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>exception</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>type-traits</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>utility</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>range</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>iterator</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>concept</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>smart-ptr</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
     </dependencies>
 </project>
