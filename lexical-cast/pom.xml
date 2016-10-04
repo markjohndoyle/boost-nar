@@ -32,19 +32,16 @@
             <groupId>org.boost</groupId>
             <artifactId>core</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>numeric</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>container</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
     </dependencies>
     

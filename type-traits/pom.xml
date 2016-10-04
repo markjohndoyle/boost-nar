@@ -32,31 +32,26 @@
             <groupId>org.boost</groupId>
             <artifactId>core</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>mpl</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>utility</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>detail</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>preprocessor</artifactId>
             <type>nar</type>
-            <version>1.57.0+nar.10</version>
         </dependency>
     </dependencies>
 
