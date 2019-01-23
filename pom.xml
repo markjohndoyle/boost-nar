@@ -4,7 +4,7 @@
 
     <groupId>org.boost</groupId>
     <artifactId>parent</artifactId>
-    <version>1.57.0+nar.10</version>
+    <version>1.57.0+nar.11</version>
     <packaging>pom</packaging>
 
     <name>Boost :: Parent</name>
@@ -12,15 +12,18 @@
 
     <properties>
         <!-- Maven plugin versions -->
-        <nar-plugin.version>3.2.3</nar-plugin.version>
+        <!--<nar-plugin.version>3.2.3</nar-plugin.version>-->
+        <nar-plugin.version>3.5.1</nar-plugin.version>
         <!-- Native project -->
         <compiler-name>g++</compiler-name>
         <linker-name>g++</linker-name>
     </properties>
 
     <modules>
+        <module>archive</module>
         <module>asio</module>
         <module>algorithm</module>
+        <module>bimap</module>
         <module>bind</module>
         <module>concept</module>
         <module>config</module>
@@ -44,6 +47,7 @@
         <module>math</module>
         <module>move</module>
         <module>mpl</module>
+        <module>multi_index</module>
         <module>numeric</module>
         <module>optional</module>
         <module>phoenix</module>
@@ -52,9 +56,11 @@
         <module>proto</module>
         <module>range</module>
         <module>regex</module>
+        <module>serialization</module>
         <module>smart-ptr</module>
         <module>spirit</module>
         <module>system</module>
+        <module>tuple</module>
         <module>type-traits</module>
         <module>type_index</module>
         <module>typeof</module>
@@ -85,10 +91,11 @@
                             <option>-std=c++11</option>
                             <option>-ftemplate-depth-128</option>
                             <option>-fno-inline</option>
+                            <!--
                             <option>-Wall</option>
-                            <option>-pedantic</option>
-                            <option>-Wno-long-long</option>
-                            <option>-Wno-variadic-macros</option>
+                            <option>-pedantic</option>-->
+<!--                            <option>-Wno-long-long</option>-->
+<!--                            <option>-Wno-variadic-macros</option>-->
                         </options>
                     </cpp>
                     <linker>
@@ -154,6 +161,14 @@
 
     <dependencyManagement>
     <dependencies>
+    
+    <dependency>
+    <groupId>org.boost</groupId>
+    <artifactId>archive</artifactId>
+    <version>${project.version}</version>
+    <type>nar</type>
+    </dependency>
+
     <dependency>
     <groupId>org.boost</groupId>
     <artifactId>asio</artifactId>
@@ -164,6 +179,13 @@
     <dependency>
     <groupId>org.boost</groupId>
     <artifactId>algorithm</artifactId>
+    <version>${project.version}</version>
+    <type>nar</type>
+    </dependency>
+
+    <dependency>
+    <groupId>org.boost</groupId>
+    <artifactId>bimap</artifactId>
     <version>${project.version}</version>
     <type>nar</type>
     </dependency>
@@ -331,6 +353,13 @@
 
     <dependency>
     <groupId>org.boost</groupId>
+    <artifactId>multi-index</artifactId>
+    <version>${project.version}</version>
+    <type>nar</type>
+    </dependency>
+
+    <dependency>
+    <groupId>org.boost</groupId>
     <artifactId>numeric</artifactId>
     <version>${project.version}</version>
     <type>nar</type>
@@ -387,6 +416,13 @@
 
     <dependency>
     <groupId>org.boost</groupId>
+    <artifactId>serialization</artifactId>
+    <version>${project.version}</version>
+    <type>nar</type>
+    </dependency>
+
+    <dependency>
+    <groupId>org.boost</groupId>
     <artifactId>smart-ptr</artifactId>
     <version>${project.version}</version>
     <type>nar</type>
@@ -402,6 +438,13 @@
     <dependency>
     <groupId>org.boost</groupId>
     <artifactId>system</artifactId>
+    <version>${project.version}</version>
+    <type>nar</type>
+    </dependency>
+
+    <dependency>
+    <groupId>org.boost</groupId>
+    <artifactId>tuple</artifactId>
     <version>${project.version}</version>
     <type>nar</type>
     </dependency>

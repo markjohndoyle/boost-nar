@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.boost</groupId>
         <artifactId>parent</artifactId>
-        <version>1.57.0+nar.10</version>
+        <version>1.57.0+nar.11</version>
     </parent>
 
     <artifactId>optional</artifactId>
@@ -56,11 +56,6 @@
         <dependency>
             <groupId>org.boost</groupId>
             <artifactId>detail</artifactId>
-            <type>nar</type>
-        </dependency>
-        <dependency>
-            <groupId>org.boost</groupId>
-            <artifactId>exception</artifactId>
             <type>nar</type>
         </dependency>
         <dependency>
